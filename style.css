@@ -1,11 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .p1{
     font-family:'Times New Roman', Times, serif;
-
+    background-color: darkcyan;
 }
 
 body{
     font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 .headi{
     border:2px solid dodgerblue;
+}
+.directors{
+    border: 2px solid dodgerblue;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.img1{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+    align-items: center;
+}
+.img2{
+    border: : 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+    align-items: center;
 }
